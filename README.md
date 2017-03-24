@@ -13,6 +13,7 @@ The App manage a Todo list that store the data in cookies.
 
 ## Dependences
 
+* [Redux](http://redux.js.org)
 * [React Bootstrap](https://react-bootstrap.github.io/) 
 * [Moment.js](https://momentjs.com/)
 * [SfCookies](https://www.npmjs.com/package/sfcookies)
@@ -56,11 +57,12 @@ and use [this](https://github.com/mars/create-react-app-buildpack.git) buildpack
 
 ### Visit online example on Heroku
 
-I created a online version of this example on Heroku [https://react-music-master.herokuapp.com/](https://react-music-master.herokuapp.com/)
+I created a online version of this example on Heroku [https://todolistredux.herokuapp.com/](https://todolistredux.herokuapp.com/)
 
 ## Chanchanges compared to the original codege 
 
-* The spotify api call used https instead of http, becouse heroku use only https calls
+* Add the reset on add a new reminder
+* Delete content in input fields when add a reminders
 
 ## License
 
